@@ -1,0 +1,203 @@
+
+main{
+    background-image: url(../img/hero-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+:root{
+    --main-icons-color:#0078FF;
+    --main-incons-outer:#CDE1F8;
+}
+
+    /* start nav bar */
+.navbar .container a{
+    color: white ;
+    text-transform: capitalize;
+}
+
+.navbar .container ul li{
+margin: 0 10px;
+}
+
+.navbar .container ul li a{
+    position: relative;
+    overflow: hidden;
+
+}
+.navbar .container ul li a::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: white !important;
+    transition: all 0.5s;
+}
+.navbar .container ul li a:hover::after{
+    width: 100%;
+}
+
+.navbar .container ul li a:focus::after{
+    width: 100%;
+}
+
+
+    /* end nav bar */
+
+    /* start section two  */
+
+    .line-break
+    {
+        width: 100px;
+        height: 3px;
+        background-color: var(--main-icons-color);
+    }
+
+    .icon-1{
+        width: 80px;
+        height: 80px;
+        font-size: 30px;
+        font-weight: 300;
+        background-color: white;
+        margin-bottom: 10px;
+        border: var(--main-icons-color) 5px solid;
+        transition: all 0.5s;
+
+    }
+
+   .section-services .inner:hover .icon-1{
+        background-color: var(--main-icons-color);
+        border: var(--main-incons-outer) 5px solid;
+
+
+    }
+    /* end section two */
+ 
+ 
+    /* start section three */
+   
+   .section-numerical {
+    background-image: url(../img/counters-bg.jpg);
+    background-position: center center;
+    background-size: contain;
+    background-attachment: fixed;
+   }
+   
+   .section-numerical .icon-1{
+    border: rgba(255, 255, 255,0.8) 5px solid;
+    background-color: rgba(255, 255, 255,0)
+   }
+   .layer
+   {
+    background-color: var(--main-icons-color);
+    opacity: 0.7;
+   }
+
+   
+    /* end section three */
+
+    /* start section four */
+    .section-portfolio .container .card .over_flow{
+        overflow: hidden;
+    }
+    .section-portfolio .container .card img{
+        transition: all 0.7s;
+    }
+    .section-portfolio .container .card:hover img{
+        transform: scale(1.2);
+    }
+
+    .section-portfolio .container .card p{
+            font-size: 13px !important;
+    }
+    /* end section four */
+
+    /* start section five */
+
+    .section-for-slide{
+        background-image: url(../img/overlay-bg.jpg);
+        background-position: center center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    .carousel .carousel-inner img{
+        width: 150px;
+        height: 150px;
+    }
+
+    .carousel-indicators [data-bs-target]{
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+    }
+
+    .section-for-slide .layer-5{
+        height: 100%;
+        width: 100%;
+    }
+
+/* end section five */
+
+/* start section six */
+
+.section-blog .container .card-footer img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.card .card-body .for-travel{
+    font-size: 12px;
+    background-color: var(--main-icons-color);
+}
+
+.card img:hover{
+    cursor: pointer;
+}
+
+/* end section six */
+
+/* start section seven  */
+.section-contact{
+    background-image: url(../img/overlay-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.section-contact ul li i{
+    color: var(--main-icons-color);
+}
+
+.section-contact .social-icons .social-item{
+    width: 45px;
+    height: 45px;  
+    transition: all 0.5s;
+    
+}
+.section-contact .social-icons .social-item i{
+    color: black;
+    transition: all 0.5s;
+    
+
+}
+.section-contact .social-icons .social-item:hover{
+    background-color: var(--main-icons-color);
+    border-color:rgba(0, 120, 255,0.2) !important;
+}
+.section-contact .social-icons .social-item:hover i{
+    color: white;
+}
+/* end section seven  */
+/* start section eight  */
+
+.copy-right{
+    background-color: #0078FF;
+}
+
+
+/* end section eight  */
